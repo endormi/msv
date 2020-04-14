@@ -43,7 +43,7 @@ func main() {
 		errs <- fmt.Errorf("%s", <- c)
 	}()
 
-	endpoints := account.MakeEndpoints(srv)
+	endpoint := tools.CreateEndpoint(srv)
 
 	go func() {
 		fmt.Println("listening on port", *httpAddr)
