@@ -10,6 +10,13 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+
+   "github.com/endormi/msv/tools/endpoint"
+   "github.com/endormi/msv/tools/lang"
+   "github.com/endormi/msv/tools/req"
+   "github.com/endormi/msv/tools/serv"
+   "github.com/endormi/msv/tools/server"
+   "github.com/endormi/msv/tools/service"
 )
 
 func main() {
